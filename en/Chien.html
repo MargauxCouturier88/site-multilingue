@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Gallery</title>
+  <link rel="stylesheet" href="/src/css/components/menu.css">
+  <link rel="stylesheet" href="/src/css/components/gallery.css">
+  <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__end">
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">🍔</button>
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="chat.html">Cat</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Chien.html">Dog</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Item de menu quatre</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="title">Cat Gallery</h1>
+    <p class="subtitle">Meet our adorable cats below!</p>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <article class="gallery__item">
+        <img src="public/chat1.jpeg" alt="Chat 1" class="gallery__img">
+        <p class="gallery__description">Here is cat number 1, he is very cute!</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="public/chat2.jpeg" alt="Chat 2" class="gallery__img">
+        <p class="gallery__description">This cat loves to lounge in the sun.</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="/public/chat3.jpeg" alt="Chat 3" class="gallery__img">
+        <p class="gallery__description">A curious cat who loves to explore.</p>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>

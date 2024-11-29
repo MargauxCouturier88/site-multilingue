@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie de Chats</title>
+  <link rel="stylesheet" href="/src/css/components/menu.css">
+  <link rel="stylesheet" href="/src/css/components/gallery.css">
+  <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__end">
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">🍔</button>
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="chat.html">Chat</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="Chien.html">Chien</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html">Accueil</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Item de menu quatre</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="title">Galerie de Chiens</h1>
+    <p class="subtitle">Découvrez nos adorables chiens ci-dessous !</p>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <article class="gallery__item">
+        <img src="public/chien1.jpeg" alt="Chien 1" class="gallery__img">
+        <p class="gallery__description">Voici le chien numéro 1, il est très joueur !</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="public/chien2.jpeg" alt="Chien 2" class="gallery__img">
+        <p class="gallery__description">Ces chiens adore la neige.</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="/public/chien3.jpeg" alt="Chien 3" class="gallery__img">
+        <p class="gallery__description">Un chien en promenade qui aime explorer.</p>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>
